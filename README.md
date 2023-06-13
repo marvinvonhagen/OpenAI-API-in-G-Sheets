@@ -1,5 +1,5 @@
 
-# GPT-3 app script for Google Sheets
+# OpenAI API (GPT-3, GPT-3.5-Turbo, GPT-4) app script for Google Sheets
 This app script allows you to access the GPT-3 API from within a Google Sheet, using the formula `=GPT(prompt, max_tokens)`. The `prompt` parameter is the text that you want to send to the GPT-3 API, and the `max_tokens` parameter (optional, default value: 64) is the maximum number of tokens to generate in the response.
 
 ## Getting started
