@@ -2,7 +2,7 @@
 var API_KEY = 'YOUR_API_KEY';
 
 /**
- * Returns the response from the GPT-3 API for the given prompt.
+ * Returns the Completion response from the OpenAI API (e.g., text-davinci-003) for the given prompt.
  *
  * @param {string} prompt The prompt to send to the GPT-3 API.
  * @param {number} [max_tokens = 64] The maximum number of tokens to generate in the response.
@@ -11,7 +11,7 @@ var API_KEY = 'YOUR_API_KEY';
  * Full credit to ChatGPT that created this script on my behalf ;-)
  *  
  */
-function GPT(prompt,max_tokens = 64) {
+function GPT(prompt, max_tokens = 64) {
   // Set up the API URL and payload
   var API_URL = 'https://api.openai.com/v1/completions';
   var payload = {
